@@ -1,3 +1,5 @@
+import main from './components/main';
 import './css/style.css';
 
-console.log('Hello, World!');
+const body = document.querySelector('body')
+body.appendChild(main())
